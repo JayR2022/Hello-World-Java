@@ -1,13 +1,12 @@
 package com.jr.helloworld;
 import java.util.Scanner;
-
 import com.jr.datatypes.DataTypes;
-
 import java.util.Random;
 
 public class HelloWorld {
 	
 	public static void main(String[] args) {
+		
 		String out_message = "Hello Jay!";
 		Scanner myScannerObj = new Scanner(System.in);
 		Random myRandom = new Random();
